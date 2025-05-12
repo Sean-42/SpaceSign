@@ -18,8 +18,8 @@ i2c_dev = I2C(1,scl=Pin(3),sda=Pin(2),freq=200000)  # start I2C on I2C1 (GPIO 26
 #ssid = 'Panic! At the Cisco'
 #password = 'TheC00leyF00lies'
 #mydisplay = tm1637.TM1637(clk=Pin(27), dio=Pin(26))
-ssid = 'DESKTOP-44QTM0N6657'
-password = 'Bruteforce1337!'
+ssid = 'Your_SSID'
+password = 'Your_password'
 wlan = network.WLAN(network.STA_IF)
 wlan.disconnect()
 wlan.active(True)
